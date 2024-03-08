@@ -10,3 +10,9 @@
 - [ ] Em uma das páginas, crie *5 tabelas* com *3 variações* diferentes;
 - [ ] Em uma das páginas, crie um projeto que tenha *1 vídeo* e *1 áudio* no mínimo.
 - [ ] Em todas as páginas realize o processo de âncora de forma livre.
+
+#### Importante
+1) [ ] Neste caso você deverá criar uma pasta de arquivos `html.`, uma pasta de audio, uma pasta de video e uma pasta de imagens.
+2) [ ] **Não enviar pasta compactada.**
+3) [ ] **Não utilizar Lorem Ipsum.**
+4) [ ] Colocar os *créditos* das mídias abaixo das mesmas.
