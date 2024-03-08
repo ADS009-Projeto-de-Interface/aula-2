@@ -12,7 +12,7 @@
 - [ ] Em todas as páginas realize o processo de âncora de forma livre.
 
 #### Importante
-1) [ ] Neste caso você deverá criar uma pasta de arquivos `html.`, uma pasta de audio, uma pasta de video e uma pasta de imagens.
-2) [ ] **Não enviar pasta compactada.**
-3) [ ] **Não utilizar Lorem Ipsum.**
-4) [ ] Colocar os *créditos* das mídias abaixo das mesmas.
+- [ ] Neste caso você deverá criar uma pasta de arquivos `html.`, uma pasta de audio, uma pasta de video e uma pasta de imagens.
+- [ ] **Não enviar pasta compactada.**
+- [ ] **Não utilizar Lorem Ipsum.**
+- [ ] Colocar os *créditos* das mídias abaixo das mesmas.
