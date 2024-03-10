@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,24 +8,21 @@
     <meta name="author" content="24114290137 - Sérgio Silva">
 
     <!-- Chamando Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
 
     <!-- Chamando CSS -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
 
     <!-- Chamando Bootstrap 5.3.3 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
     <!-- Chamando Biblioteca de Ícones Material Design -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
     <!-- Colocando Favicon na página-->
-    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
 
     <!-- Material Design Icons -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -39,7 +36,7 @@
     <body>
         <div class="container-fluid">
             
-            <!--  ATIVIDADE 02 -->
+            <!-- ATIVIDADE 02 -->
             <!-- [x] Crie 4 páginas .html, sendo que uma delas deverá ser index.html. -->
             <!-- [x] No index, desenvolva 3 links para as outras três páginas direto; -->
             <!-- [x] Em uma das páginas, desenvolva um projeto com 5 imagens e no mínimo duas linhas ou dois parágrafos de texto; -->
@@ -51,8 +48,9 @@
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">ADS009</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -66,23 +64,23 @@
                                     Conceitos
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="frontend.html" target="_blank">Frontend</a></li>
+                                    <li><a class="dropdown-item" href="frontend.html">Frontend</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="./html.html" target="_blank">HTML</a>
+                                    <li><a class="dropdown-item" href="./html.html">HTML</a>
                                     </li>
-                                    <li><a class="dropdown-item" href="./css.html" target="_blank">CSS</a>
+                                    <li><a class="dropdown-item" href="./css.html">CSS</a>
                                     </li>
-                                    <li><a class="dropdown-item" href="./bootstrap.html" target="_top">Bootstrap</a></li>
+                                    <li><a class="dropdown-item" href="./bootstrap.html">Bootstrap</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="./javascript.html" target="_self">Javascript</a></li>
+                                    <li><a class="dropdown-item" href="./javascript.html">Javascript</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="./nodejs.html" target="_parent">NodeJS</a></li>
+                                    <li><a class="dropdown-item" href="./nodejs.html">NodeJS</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
@@ -129,29 +127,32 @@
                             <h2>O que eu posso fazer com CSS3</h2>
                             <ul class="fw-light">
                                 <li>
-                                    <button type="button" class="btn btn-ligh" id="liveToastBtn">CSS @supports</button>
-                                    <div class="toast" id="liveToastBtn" role="alert">
-                                        <div class="toast-header">
-                                            <img src="../img/bootstrap-logo.png" class="rounded me-2" style="width:20px; height:auto;" alt="...">
-                                            <strong class="me-auto">Conceito</strong>
-                                            <small>11 mins atrás</small>
-                                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-                                        </div>
-                                        <div class="toast-body">
-                                            Usada para testes nas features. Isso as vezes feito com Modernizr, agora é um pacote de utilidades muito bom para rotinas de testes. 
-                                        </div>
-                                    </div>
+                                    <button type="button" class="btn btn-ligh">CSS @supports</button>
                                 </li>
-                                <li>CSS Filters</li>
-                                <li>Pointer events e eventos de clique</li>
-                                <li>Deslizar para cima e deslizar para baixo</li>
-                                <li>CSS Counters</li>
-                                <li>CSS Classes com Unicode</li>
-                                <li>CSS Circles</li>
+                                <li>
+                                    <button type="button" class="btn btn-ligh" id="">CSS Filters</button>
+                                </li>
+                                <li>
+                                    <button type="button" class="btn btn-ligh" id="">Pointer events e eventos de clique</button>
+                                </li>
+                                <li>
+                                    <button type="button" class="btn btn-ligh" id="">Deslizar para cima e deslizar para baixo</button>
+                                </li>
+                                <li>
+                                    <button type="button" class="btn btn-ligh" id="">CSS Counters</button>
+                                </li>
+                                <li>
+                                    <button type="button" class="btn btn-ligh" id="">CSS Classes com Unicode</button>
+                                </li>
+                                <li>
+                                    <button type="button" class="btn btn-ligh" id="">CSS Circles</button>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
+
+                
 
                 <div class="row p-4"></div>
                 
@@ -165,241 +166,286 @@
                 <div class="bd-example m-4">
                     <table class="table table-striped table-hover">
                         <thead>
-                      <tr>
-                        <th scope="col" class="border-end">Tag</th>
-                        <th scope="col" colspan="8" class="border-end">Compatibilidade</th>      
-                        <th scope="col" width="1000px">Função</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row" rowspan="2" class="align-middle border-end"><kbd>section</kbd></th>
-                        <th scope="row" class="align-middle">Browser</th>
-                        <th>
-                            <td class="align-middle"><img src="../img/browsers-icons/chrome/chrome.svg" style="width:25px; height:25px;" alt="Google Chrome"></td>
-                            <td class="align-middle"><img src="../img/browsers-icons/edge/edge.svg" style="width:25px; height:25px;" alt="Microsoft Edge"></td>
-                            <td class="align-middle"><img src="../img/browsers-icons/firefox/firefox.svg" style="width:25px; height:25px;" alt="Mozila Firefox"></td>
-                            <td class="align-middle"><img src="../img/browsers-icons/opera/opera.svg" style="width:25px; height:25px;" alt="Opera"></td>
-                            <td class="align-middle"><img src="../img/browsers-icons/safari/safari.svg" style="width:25px; height:25px;" alt="Safari"></td>
-                            <td class="align-middle border-end"><img src="../img/browsers-icons/chromium/chromium.svg" style="width:25px; height:25px;" alt="Chromium"></td>  
-                        </th>
-                        <td><p class="fw-light">é utilizada para marcar as seções de conteúdo de uma página. Com Esse elemento agrupamos de forma lógica nosso conteúdo, separando a informação em áreas diferentes. O principal objetivo é retirar essa responsabilidade das <code>div</code>.</p></td>
-                      </tr>
-
-                      <tr>
-                        <th scope="row" rowspan="1">Versões</th>
-                        <th>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-success">check</small>
-                                <small class="fw-light">3</small>
-                            </td>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-success">check</small>
-                                <small class="fw-light">12</small>
-                            </td>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-success">check</small>
-                                <small class="fw-light">3.5</small>
-                            </td>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-danger">close</small>
-                                <small class="fw-light">10.5</small>
-                            </td>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-danger">close</small>
-                                <small class="fw-light">3.1</small>
-                            </td>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-success">check</small>
-                                <small class="fw-light">18</small>
-                            </td>
-                        </th>
-                        <td></td>
-                      </tr>
-
-                      <tr>
-                        <th scope="row" rowspan="2" class="align-middle border-end"><kbd>audio</kbd></th>
-                        <th scope="row" class="align-middle">Browser</th>
-                        <th>
-                            <td class="align-middle"><img src="../img/browsers-icons/chrome/chrome.svg" style="width:25px; height:25px;" alt="Google Chrome"></td>
-                            <td class="align-middle"><img src="../img/browsers-icons/edge/edge.svg" style="width:25px; height:25px;" alt="Microsoft Edge"></td>
-                            <td class="align-middle"><img src="../img/browsers-icons/firefox/firefox.svg" style="width:25px; height:25px;" alt="Mozila Firefox"></td>
-                            <td class="align-middle"><img src="../img/browsers-icons/opera/opera.svg" style="width:25px; height:25px;" alt="Opera"></td>
-                            <td class="align-middle"><img src="../img/browsers-icons/safari/safari.svg" style="width:25px; height:25px;" alt="Safari"></td>
-                            <td class="align-middle border-end"><img src="../img/browsers-icons/chromium/chromium.svg" style="width:25px; height:25px;" alt="Chromium"></td>  
-                        </th>
-                        <td class="align-middle"><p class="fw-light">O elemento <code>audio</code> é utilizado para embutir conteúdo de som em um documento HTML ou XHTML.O elemento audio foi adicionado como parte do HTML5.</p></td>
-                      </tr>
-
-                      <tr>
-                        <th scope="row" rowspan="1">Versões</th>
-                        <th>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-success">check</small>
-                                <small class="fw-light">3</small>
-                            </td>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-success">check</small>
-                                <small class="fw-light">12</small>
-                            </td>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-success">check</small>
-                                <small class="fw-light">3.5</small>
-                            </td>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-success">check</small>
-                                <small class="fw-light">10.5</small>
-                            </td>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-success">check</small>
-                                <small class="fw-light">3.1</small>
-                            </td>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-success">check</small>
-                                <small class="fw-light">18</small>
-                            </td>
-                        </th>
-                        <td></td>
-                      </tr>
-
-                      <tr>
-                        <th scope="row" rowspan="2" class="align-middle border-end"><kbd>video</kbd></th>
-                        <th scope="row" class="align-middle">Browser</th>
-                        <th>
-                            <td class="align-middle"><img src="../img/browsers-icons/chrome/chrome.svg" style="width:25px; height:25px;" alt="Google Chrome"></td>
-                            <td class="align-middle"><img src="../img/browsers-icons/edge/edge.svg" style="width:25px; height:25px;" alt="Microsoft Edge"></td>
-                            <td class="align-middle"><img src="../img/browsers-icons/firefox/firefox.svg" style="width:25px; height:25px;" alt="Mozila Firefox"></td>
-                            <td class="align-middle"><img src="../img/browsers-icons/opera/opera.svg" style="width:25px; height:25px;" alt="Opera"></td>
-                            <td class="align-middle"><img src="../img/browsers-icons/safari/safari.svg" style="width:25px; height:25px;" alt="Safari"></td>
-                            <td class="align-middle border-end"><img src="../img/browsers-icons/chromium/chromium.svg" style="width:25px; height:25px;" alt="Chromium"></td>  
-                        </th>
-                        <td><p class="fw-light">O elemento HTML <code>video</code> é utilizado para incorporar conteúdo de vídeo em um documento HTML ou XHTML.</p></td>
-                      </tr>
-
-                      <tr>
-                        <th scope="row" rowspan="1">Versões</th>
-                        <th>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-success">check</small>
-                                <small class="fw-light">3</small>
-                            </td>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-success">check</small>
-                                <small class="fw-light">12</small>
-                            </td>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-success">check</small>
-                                <small class="fw-light">3.5</small>
-                            </td>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-success">check</small>
-                                <small class="fw-light">10.5</small>
-                            </td>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-success">check</small>
-                                <small class="fw-light">3.1</small>
-                            </td>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-danger">close</small>
-                                <small class="fw-light">18</small>
-                            </td>
-                        </th>
-                        <td></td>
-                      </tr>
-
-                      <tr>
-                        <th scope="row" rowspan="2" class="align-middle border-end"><kbd>source</kbd></th>
-                        <th scope="row" class="align-middle">Browser</th>
-                        <th>
-                            <td class="align-middle"><img src="../img/browsers-icons/chrome/chrome.svg" style="width:25px; height:25px;" alt="Google Chrome"></td>
-                            <td class="align-middle"><img src="../img/browsers-icons/edge/edge.svg" style="width:25px; height:25px;" alt="Microsoft Edge"></td>
-                            <td class="align-middle"><img src="../img/browsers-icons/firefox/firefox.svg" style="width:25px; height:25px;" alt="Mozila Firefox"></td>
-                            <td class="align-middle"><img src="../img/browsers-icons/opera/opera.svg" style="width:25px; height:25px;" alt="Opera"></td>
-                            <td class="align-middle"><img src="../img/browsers-icons/safari/safari.svg" style="width:25px; height:25px;" alt="Safari"></td>
-                            <td class="align-middle border-end"><img src="../img/browsers-icons/chromium/chromium.svg" style="width:25px; height:25px;" alt="Chromium"></td>  
-                        </th>
-                        <td><p class="fw-light">Define vários recursos de mídia para <code>video</code> e <code>audio</code></p></td>
-                      </tr>
-
-                      <tr>
-                        <th scope="row" rowspan="1">Versões</th>
-                        <th>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-success">check</small>
-                                <small class="fw-light">3</small>
-                            </td>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-success">check</small>
-                                <small class="fw-light">12</small>
-                            </td>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-success">check</small>
-                                <small class="fw-light">3.5</small>
-                            </td>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-success">check</small>
-                                <small class="fw-light">10.5</small>
-                            </td>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-success">check</small>
-                                <small class="fw-light">3.1</small>
-                            </td>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-success">check</small>
-                                <small class="fw-light">18</small>
-                            </td>
-                        </th>
-                        <td></td>
-                      </tr>
-
-                      <tr>
-                        <th scope="row" rowspan="2" class="align-middle border-end"><kbd>embed</kbd></th>
-                        <th scope="row" class="align-middle">Browser</th>
-                        <th>
-                            <td class="align-middle"><img src="../img/browsers-icons/chrome/chrome.svg" style="width:25px; height:25px;" alt="Google Chrome"></td>
-                            <td class="align-middle"><img src="../img/browsers-icons/edge/edge.svg" style="width:25px; height:25px;" alt="Microsoft Edge"></td>
-                            <td class="align-middle"><img src="../img/browsers-icons/firefox/firefox.svg" style="width:25px; height:25px;" alt="Mozila Firefox"></td>
-                            <td class="align-middle"><img src="../img/browsers-icons/opera/opera.svg" style="width:25px; height:25px;" alt="Opera"></td>
-                            <td class="align-middle"><img src="../img/browsers-icons/safari/safari.svg" style="width:25px; height:25px;" alt="Safari"></td>
-                            <td class="align-middle border-end"><img src="../img/browsers-icons/chromium/chromium.svg" style="width:25px; height:25px;" alt="Chromium"></td>  
-                        </th>
-                        <td><p class="fw-light">Define um container para uma aplicação externa de conteúdo interativo (um plug-in)</p></td>
-                      </tr>
-
-                      <tr>
-                        <th scope="row" rowspan="1">Versões</th>
-                        <th>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-success">check</small>
-                                <small class="fw-light">3</small>
-                            </td>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-success">check</small>
-                                <small class="fw-light">12</small>
-                            </td>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-success">check</small>
-                                <small class="fw-light">3.5</small>
-                            </td>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-success">check</small>
-                                <small class="fw-light">10.5</small>
-                            </td>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-success">check</small>
-                                <small class="fw-light">3.1</small>
-                            </td>
-                            <td>
-                                <small class="material-symbols-outlined fw-light text-success">check</small>
-                                <small class="fw-light">18</small>
-                            </td>
-                        </th>
-                        <td></td>
-                      </tr>
-                    </tbody>
-                  
+                            <tr>
+                                <th scope="col" class="border-end">Tag</th>
+                                <th scope="col" colspan="8" class="border-end">Compatibilidade</th>
+                                <th scope="col" width="1000px">Função</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" rowspan="2" class="align-middle border-end"><kbd>section</kbd></th>
+                                <th scope="row" class="align-middle">Browser</th>
+                                <th>
+                                <td class="align-middle"><img src="../img/browsers-icons/chrome/chrome.svg"
+                                        style="width:25px; height:25px;" alt="Google Chrome"></td>
+                                <td class="align-middle"><img src="../img/browsers-icons/edge/edge.svg" style="width:25px; height:25px;"
+                                        alt="Microsoft Edge"></td>
+                                <td class="align-middle"><img src="../img/browsers-icons/firefox/firefox.svg"
+                                        style="width:25px; height:25px;" alt="Mozila Firefox"></td>
+                                <td class="align-middle"><img src="../img/browsers-icons/opera/opera.svg"
+                                        style="width:25px; height:25px;" alt="Opera"></td>
+                                <td class="align-middle"><img src="../img/browsers-icons/safari/safari.svg"
+                                        style="width:25px; height:25px;" alt="Safari"></td>
+                                <td class="align-middle border-end"><img src="../img/browsers-icons/chromium/chromium.svg"
+                                        style="width:25px; height:25px;" alt="Chromium"></td>
+                                </th>
+                                <td>
+                                    <p class="fw-light">é utilizada para marcar as seções de conteúdo de uma página. Com Esse elemento
+                                        agrupamos de forma lógica nosso conteúdo, separando a informação em áreas diferentes. O
+                                        principal objetivo é retirar essa responsabilidade das <code>div</code>.</p>
+                                </td>
+                            </tr>
+                
+                            <tr>
+                                <th scope="row" rowspan="1">Versões</th>
+                                <th>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-success">check</small>
+                                    <small class="fw-light">3</small>
+                                </td>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-success">check</small>
+                                    <small class="fw-light">12</small>
+                                </td>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-success">check</small>
+                                    <small class="fw-light">3.5</small>
+                                </td>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-danger">close</small>
+                                    <small class="fw-light">10.5</small>
+                                </td>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-danger">close</small>
+                                    <small class="fw-light">3.1</small>
+                                </td>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-success">check</small>
+                                    <small class="fw-light">18</small>
+                                </td>
+                                </th>
+                                <td></td>
+                            </tr>
+                
+                            <tr>
+                                <th scope="row" rowspan="2" class="align-middle border-end"><kbd>audio</kbd></th>
+                                <th scope="row" class="align-middle">Browser</th>
+                                <th>
+                                <td class="align-middle"><img src="../img/browsers-icons/chrome/chrome.svg"
+                                        style="width:25px; height:25px;" alt="Google Chrome"></td>
+                                <td class="align-middle"><img src="../img/browsers-icons/edge/edge.svg" style="width:25px; height:25px;"
+                                        alt="Microsoft Edge"></td>
+                                <td class="align-middle"><img src="../img/browsers-icons/firefox/firefox.svg"
+                                        style="width:25px; height:25px;" alt="Mozila Firefox"></td>
+                                <td class="align-middle"><img src="../img/browsers-icons/opera/opera.svg"
+                                        style="width:25px; height:25px;" alt="Opera"></td>
+                                <td class="align-middle"><img src="../img/browsers-icons/safari/safari.svg"
+                                        style="width:25px; height:25px;" alt="Safari"></td>
+                                <td class="align-middle border-end"><img src="../img/browsers-icons/chromium/chromium.svg"
+                                        style="width:25px; height:25px;" alt="Chromium"></td>
+                                </th>
+                                <td class="align-middle">
+                                    <p class="fw-light">O elemento <code>audio</code> é utilizado para embutir conteúdo de som em um
+                                        documento HTML ou XHTML.O elemento audio foi adicionado como parte do HTML5.</p>
+                                </td>
+                            </tr>
+                
+                            <tr>
+                                <th scope="row" rowspan="1">Versões</th>
+                                <th>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-success">check</small>
+                                    <small class="fw-light">3</small>
+                                </td>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-success">check</small>
+                                    <small class="fw-light">12</small>
+                                </td>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-success">check</small>
+                                    <small class="fw-light">3.5</small>
+                                </td>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-success">check</small>
+                                    <small class="fw-light">10.5</small>
+                                </td>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-success">check</small>
+                                    <small class="fw-light">3.1</small>
+                                </td>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-success">check</small>
+                                    <small class="fw-light">18</small>
+                                </td>
+                                </th>
+                                <td></td>
+                            </tr>
+                
+                            <tr>
+                                <th scope="row" rowspan="2" class="align-middle border-end"><kbd>video</kbd></th>
+                                <th scope="row" class="align-middle">Browser</th>
+                                <th>
+                                <td class="align-middle"><img src="../img/browsers-icons/chrome/chrome.svg"
+                                        style="width:25px; height:25px;" alt="Google Chrome"></td>
+                                <td class="align-middle"><img src="../img/browsers-icons/edge/edge.svg" style="width:25px; height:25px;"
+                                        alt="Microsoft Edge"></td>
+                                <td class="align-middle"><img src="../img/browsers-icons/firefox/firefox.svg"
+                                        style="width:25px; height:25px;" alt="Mozila Firefox"></td>
+                                <td class="align-middle"><img src="../img/browsers-icons/opera/opera.svg"
+                                        style="width:25px; height:25px;" alt="Opera"></td>
+                                <td class="align-middle"><img src="../img/browsers-icons/safari/safari.svg"
+                                        style="width:25px; height:25px;" alt="Safari"></td>
+                                <td class="align-middle border-end"><img src="../img/browsers-icons/chromium/chromium.svg"
+                                        style="width:25px; height:25px;" alt="Chromium"></td>
+                                </th>
+                                <td>
+                                    <p class="fw-light">O elemento HTML <code>video</code> é utilizado para incorporar conteúdo de vídeo
+                                        em um documento HTML ou XHTML.</p>
+                                </td>
+                            </tr>
+                
+                            <tr>
+                                <th scope="row" rowspan="1">Versões</th>
+                                <th>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-success">check</small>
+                                    <small class="fw-light">3</small>
+                                </td>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-success">check</small>
+                                    <small class="fw-light">12</small>
+                                </td>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-success">check</small>
+                                    <small class="fw-light">3.5</small>
+                                </td>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-success">check</small>
+                                    <small class="fw-light">10.5</small>
+                                </td>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-success">check</small>
+                                    <small class="fw-light">3.1</small>
+                                </td>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-danger">close</small>
+                                    <small class="fw-light">18</small>
+                                </td>
+                                </th>
+                                <td></td>
+                            </tr>
+                
+                            <tr>
+                                <th scope="row" rowspan="2" class="align-middle border-end"><kbd>source</kbd></th>
+                                <th scope="row" class="align-middle">Browser</th>
+                                <th>
+                                <td class="align-middle"><img src="../img/browsers-icons/chrome/chrome.svg"
+                                        style="width:25px; height:25px;" alt="Google Chrome"></td>
+                                <td class="align-middle"><img src="../img/browsers-icons/edge/edge.svg" style="width:25px; height:25px;"
+                                        alt="Microsoft Edge"></td>
+                                <td class="align-middle"><img src="../img/browsers-icons/firefox/firefox.svg"
+                                        style="width:25px; height:25px;" alt="Mozila Firefox"></td>
+                                <td class="align-middle"><img src="../img/browsers-icons/opera/opera.svg"
+                                        style="width:25px; height:25px;" alt="Opera"></td>
+                                <td class="align-middle"><img src="../img/browsers-icons/safari/safari.svg"
+                                        style="width:25px; height:25px;" alt="Safari"></td>
+                                <td class="align-middle border-end"><img src="../img/browsers-icons/chromium/chromium.svg"
+                                        style="width:25px; height:25px;" alt="Chromium"></td>
+                                </th>
+                                <td>
+                                    <p class="fw-light">Define vários recursos de mídia para <code>video</code> e <code>audio</code></p>
+                                </td>
+                            </tr>
+                
+                            <tr>
+                                <th scope="row" rowspan="1">Versões</th>
+                                <th>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-success">check</small>
+                                    <small class="fw-light">3</small>
+                                </td>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-success">check</small>
+                                    <small class="fw-light">12</small>
+                                </td>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-success">check</small>
+                                    <small class="fw-light">3.5</small>
+                                </td>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-success">check</small>
+                                    <small class="fw-light">10.5</small>
+                                </td>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-success">check</small>
+                                    <small class="fw-light">3.1</small>
+                                </td>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-success">check</small>
+                                    <small class="fw-light">18</small>
+                                </td>
+                                </th>
+                                <td></td>
+                            </tr>
+                
+                            <tr>
+                                <th scope="row" rowspan="2" class="align-middle border-end"><kbd>embed</kbd></th>
+                                <th scope="row" class="align-middle">Browser</th>
+                                <th>
+                                <td class="align-middle"><img src="../img/browsers-icons/chrome/chrome.svg"
+                                        style="width:25px; height:25px;" alt="Google Chrome"></td>
+                                <td class="align-middle"><img src="../img/browsers-icons/edge/edge.svg" style="width:25px; height:25px;"
+                                        alt="Microsoft Edge"></td>
+                                <td class="align-middle"><img src="../img/browsers-icons/firefox/firefox.svg"
+                                        style="width:25px; height:25px;" alt="Mozila Firefox"></td>
+                                <td class="align-middle"><img src="../img/browsers-icons/opera/opera.svg"
+                                        style="width:25px; height:25px;" alt="Opera"></td>
+                                <td class="align-middle"><img src="../img/browsers-icons/safari/safari.svg"
+                                        style="width:25px; height:25px;" alt="Safari"></td>
+                                <td class="align-middle border-end"><img src="../img/browsers-icons/chromium/chromium.svg"
+                                        style="width:25px; height:25px;" alt="Chromium"></td>
+                                </th>
+                                <td>
+                                    <p class="fw-light">Define um container para uma aplicação externa de conteúdo interativo (um
+                                        plug-in)</p>
+                                </td>
+                            </tr>
+                
+                            <tr>
+                                <th scope="row" rowspan="1">Versões</th>
+                                <th>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-success">check</small>
+                                    <small class="fw-light">3</small>
+                                </td>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-success">check</small>
+                                    <small class="fw-light">12</small>
+                                </td>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-success">check</small>
+                                    <small class="fw-light">3.5</small>
+                                </td>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-success">check</small>
+                                    <small class="fw-light">10.5</small>
+                                </td>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-success">check</small>
+                                    <small class="fw-light">3.1</small>
+                                </td>
+                                <td>
+                                    <small class="material-symbols-outlined fw-light text-success">check</small>
+                                    <small class="fw-light">18</small>
+                                </td>
+                                </th>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                
                     </table>
-                  </div>
+                </div>
             </div>
         </div>
     </body>
@@ -412,8 +458,7 @@
         <!-- Copyright -->
         <div class="text-center fw-light p-3" style="background-color: rgba(0, 0, 0, 0.05);">
             © OADSNM1AB-ADS009-20241 - Projeto de Interface | IESB OESTE:
-            <a class="text-body" href="https://classroom.google.com/c/NjU2ODc1Njk5NTI2" target="_blank">Google
-                Classroom</a>
+            <a class="text-body" href="https://classroom.google.com/c/NjU2ODc1Njk5NTI2" target="_blank">Google Classroom</a>
         </div>
         <!-- Copyright -->
     </footer>
