@@ -10,9 +10,8 @@
   <!-- Chamando Google Fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
   <!-- Chamando CSS -->
   <link rel="stylesheet" href="./css/style.css">
@@ -35,13 +34,13 @@
     <!--  ATIVIDADE 02 -->
     <!-- [x] Crie 4 páginas .html, sendo que uma delas deverá ser index.html. -->
     <!-- [x] No index, desenvolva 3 links para as outras três páginas direto; -->
-    <!-- [ ] Em uma das páginas, desenvolva um projeto com 5 imagens e no mínimo duas linhas ou dois parágrafos de texto; -->
-    <!-- [ ] Em uma das páginas, crie 5 tabelas com 3 variações diferentes; -->
-    <!-- [ ] Em uma das páginas, crie um projeto que tenha 1 vídeo e 1 áudio no mínimo. -->
-    <!-- [ ] Em todas as páginas realize o processo de âncora de forma livre. -->
+    <!-- [x] Em uma das páginas, desenvolva um projeto com 5 imagens e no mínimo duas linhas ou dois parágrafos de texto; -->
+    <!-- [x] Em uma das páginas, crie 5 tabelas com 3 variações diferentes; -->
+    <!-- [x] Em uma das páginas, crie um projeto que tenha 1 vídeo e 1 áudio no mínimo. -->
+    <!-- [x] Em todas as páginas realize o processo de âncora de forma livre. -->
 
     <!-- MENU PRINCIPAL -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">ADS009</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -49,7 +48,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="topoPagina">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
@@ -58,17 +57,17 @@
                 Conceitos
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="pages/frontend.html">Frontend</a></li>
+                <li><a class="dropdown-item" href="#idFrontend">Frontend</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="pages/html.html">HTML</a></li>
-                <li><a class="dropdown-item" href="pages/css.html">CSS</a></li>
+                <li><a class="dropdown-item" href="#idHTML5">HTML</a></li>
+                <li><a class="dropdown-item" href="#idCSS3">CSS</a></li>
                 <li><a class="dropdown-item" href="apages/bootstrap.html">Bootstrap</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="pages/js.html">Javascript</a></li>
+                <li><a class="dropdown-item" href="#idJavascript">Javascript</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
@@ -105,8 +104,8 @@
 
     <div class="row">
       <div class="col-sm-6 mt-2">
-        <div class="card p-5">
-          <h1><a href="pages/frontend.html"  alt="Página com conteúdo Frontend">Frontend</a></h1>
+        <div class="card p-5 conteudo-principal">
+          <h1><a href="pages/frontend.html"  alt="Página com conteúdo Frontend" id="idFrontend">Frontend</a></h1>
           <!--  Conceito de Frontend -->
           <p class="card-text"><b>Frontend</b> refere-se à parte de um sistema ou aplicação que <i>os usuários interagem
               diretamente</i>. É a <u>interface visível e interativa</u> através da qual os usuários interagem com um
@@ -117,7 +116,7 @@
             Essa camada do desenvolvimento é crucial para proporcionar uma interface intuitiva e responsiva, garantindo
             uma interação suave e eficiente entre os usuários e a aplicação.</p>
 
-          <h2><a href="./pages/html.html" alt="Página com conteúdo HTML5">HTML5</a></h2>
+          <h2><a href="./pages/html.html" alt="Página com conteúdo HTML5" id="idHTML5">HTML5</a></h2>
           <!--  Conceito de HTML5 -->
           <p class="card-text"><b>HTML5</b> <i>(Hypertext Markup Language 5)</i> é a quinta versão do padrão HTML, que é
             a <u>linguagem de marcação</u> fundamental para a construção de páginas web. Lançado em outubro de 2014, o
@@ -128,7 +127,7 @@
             na promoção de uma web mais rica em recursos, acessível e compatível com uma variedade de dispositivos e
             navegadores. Ele continua a ser amplamente adotado na criação de páginas web modernas e responsivas.</p>
 
-          <h3><a href="../aula-2/pages/css.html" alt="Página com conteúdo CSS3">CSS3</a></h3>
+          <h3><a href="../aula-2/pages/css.html" alt="Página com conteúdo CSS3" id="idCSS3">CSS3</a></h3>
           <!--  Conceito de Folha de Estilo em Cascata -->
           <p class="card-text"><b>CSS3</b> <i>(Cascading Style Sheets 3)</i>é a terceira versão da linguagem de estilo
             utilizada para <u>controlar a apresentação visual de documentos</u> HTML e XML. CSS descreve como os
@@ -140,7 +139,7 @@
             scripts adicionais. CSS3 é amplamente utilizado na criação de layouts modernos e responsivos para páginas
             web.</p>
 
-          <h4><a href="../aula-2/pages/js.html" alt="Página com conteúdo Javascript">Javascript 6+</a></h4>
+          <h4><a href="../aula-2/pages/js.html" alt="Página com conteúdo Javascript" id="idJavascript">Javascript 6+</a></h4>
           <!--  Conceito de Javascript -->
           <p class="card-text pb-1"><b>JavaScript</b> é uma linguagem de programação de alto nível, interpretada e
             orientada a objetos. Originalmente desenvolvida para ser executada nos navegadores web, JavaScript tornou-se
@@ -226,12 +225,20 @@
               <pre>Positioning</pre>
             </li>
           </ul>
+          <div style="height:325px;"></div>
+        </div>
+        <div class="position-relative">
+          <a href="#topoPagina">
+            <button type="button" class="btn-rounded-circle btn-danger btn-lg position-fixed bottom-0 end-0" href="">
+              <span class="material-symbols-outlined">expand_less</span>
+            </button>
+          </a>
         </div>
       </div>
     </div>
   </div>
 
-  <footer class="bg-body-tertiary text-center">
+  <footer class="text-center">
     <!-- Grid container -->
     <div class="container p-4"></div>
     <!-- Grid container -->

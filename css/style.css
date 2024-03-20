@@ -12,3 +12,20 @@
     /* Standard */
     transform: rotate(-90.0deg);
   }
+
+.conteudo-principal p{
+  line-height: 200%;
+}
+
+.btn-rounded-circle{
+  -webkit-border-radius: 70px;
+  -moz-border-radius: 70px;
+  -o-border-radius: 70px;
+  -ms-border-radius: 70px;
+  border-radius: 70px;
+  width: 70px;
+  height: 70px;
+  background-color: #d63384;
+  color: #ffffff;
+  border: none;
+}
